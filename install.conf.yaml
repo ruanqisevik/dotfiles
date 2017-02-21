@@ -24,6 +24,7 @@
     ~/.bash_it/lib/custom.bash: bash_it/lib.bash
     ~/.bash_it/custom/adoyle: bash-custom
     ~/.bash_it.bash: bash_it/enable.bash
+    ~/.bash_it_reset.bash: bash_it/reset.sh
 
     # configs
     ~/.tmux.conf: configs/tmux.conf
