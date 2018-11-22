@@ -119,7 +119,7 @@ __right_ps1() {
   [[ $running -gt 0 ]] && rC="$E_GREEN"
   local job="${E_GREY}[${rC}${running}r${E_GREY}/${sC}${stopped}s${E_GREY}]"
 
-  local TIME=$(date +'%H:%M:%S')
+  # local TIME=$(date +'%H:%M:%S')
   local PS1_prefix0="${exit_status}${job}${E_YELLOW}[T${TIME}]"
   echo -n "$PS1_prefix0"
 }
@@ -136,7 +136,7 @@ __PS1_theme_adoyle() {
   local PS1_right="$(__right_ps1)"  # Because __right_ps1 use $?, it should be first
   local PS1_left="${E_GREEN}⧉ ${E_GREY}[ ${E_GREEN}$(pwd) ${E_GREY}]"
   local PS1_middle="$(__fill_ps1_spaces "${PS1_left}" "${PS1_right}")"
-  local PS1_SIGNATURE="${PS1_SIGNATURE:-𝕬}"
+  local PS1_SIGNATURE="${PS1_SIGNATURE:-Roy}"
 
   if command -v __git_ps1 &>/dev/null ; then
     # shellcheck disable=SC2016

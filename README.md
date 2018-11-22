@@ -59,7 +59,7 @@ My configurations and shell scripts.
   - All my plugins are put in [`bash-custom/`](./bash-custom/) folder. And some enabled plugins provided by bash-it. Refer to [Bash-it Enables/Disables](#bash-it-enablesdisables).
   - Compatible with [bash-completion][] (for bash 3.x) and [bash-completion2][bash-completion] (for bash 4.x). See the [configuration](https://github.com/adoyle-h/dotfiles/blob/master/bash_it/completions.bash)
 - Auto-execute specific scripts for different system (ubuntu/macos and so on).
-- Responsive and pretty PS1, and personalized theme `𝕬`. Refer to [Preview](#preview).
+- Responsive and pretty PS1, and personalized theme `Roy`. Refer to [Preview](#preview).
 - Collections of shell commands, which locates in [`bin/`](./bin/) directory. Refer to [Binary executables](#binary-executables).
 - Manage sub commands, which locates in [`bin/sub/`](./bin/sub/) directory. The manage framework is modified from [sub][].
   - Default `SUB_NAME=a`，press `a help` to see help. You can modify the enterpoint (SUB_NAME) in Plugin: [sub.plugin.bash][]
@@ -199,8 +199,8 @@ Run `./install` to create symbolic links.
 │   ├── secrets.env.bash -> ../secrets/secrets.env.bash
 │   ├── system-detect.shell.bash    # detect system and run its bash scripts
 │   ├── themes/                     # the bash_it theme
-│   │   └── 𝕬/
-│   │       └── 𝕬.theme.bash
+│   │   └── Roy/
+│   │       └── Roy.theme.bash
 │   ├── tmux.plugin.bash
 │   ├── variables.shell.bash        # Shell Variables settings
 │   └── xcode.plugin.bash

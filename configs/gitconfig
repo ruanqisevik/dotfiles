@@ -1,13 +1,13 @@
 [user]
-    name = ADoyle
-    email = adoyle.h@gmail.com
+    name = Q.Roy
+    email = ruanqisevik@gmail.com
 [color]
     ui = true
 [core]
     attributesfile = ~/.gitattributes
     editor = nvim
     excludesfile = ~/.gitignore
-    autocrlf = input
+	autocrlf = false
     safecrlf = true
     pager = less --tabs=4 -RFXM
     quotepath = false
@@ -77,7 +77,7 @@
 [merge]
     log = true
     ff = false
-    tool = nvimdiff
+    tool = ksdiff
     conflictstyle = merge  ; default
     ; conflictstyle = diff3
 [mergetool]
@@ -117,4 +117,4 @@
 ; [https]
 ;     proxy = socks5://127.0.0.1:1080
 [github]
-    user = adoyle-h
+    user = ruanqisevik

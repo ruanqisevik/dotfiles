@@ -49,3 +49,5 @@ export XDG_CONFIG_DIRS="/etc/xdg"
 
 [[ "$_DEBUG" == "on" ]] && echo "Now executing $HOME/.bash_it.bash"
 source "$HOME/.bash_it.bash"
+
+source ~/dotfiles/completions/git-prompt.sh
