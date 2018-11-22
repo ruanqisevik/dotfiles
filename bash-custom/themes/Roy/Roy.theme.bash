@@ -119,7 +119,7 @@ __right_ps1() {
   [[ $running -gt 0 ]] && rC="$E_GREEN"
   local job="${E_GREY}[${rC}${running}r${E_GREY}/${sC}${stopped}s${E_GREY}]"
 
-  # local TIME=$(date +'%H:%M:%S')
+  local TIME=$(date +'%H:%M:%S')
   local PS1_prefix0="${exit_status}${job}${E_YELLOW}[T${TIME}]"
   echo -n "$PS1_prefix0"
 }
